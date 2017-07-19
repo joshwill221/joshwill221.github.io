@@ -96,21 +96,3 @@ footer {
 .pdfobject {
   border: 1px solid grey;
 }
-
-.my-navbar {
-  background: blue;
-  border-radius: 0;
-  border: 0;
-}
-
-.my-navbar .navbar-brand {
-  color: white;
-}
-
-.my-navbar > .active a {
-  background: red;
-}
-
-.page-header h1 {
-  color: red;
-}
