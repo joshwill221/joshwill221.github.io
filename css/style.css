@@ -96,3 +96,13 @@ footer {
 .pdfobject {
   border: 1px solid grey;
 }
+
+.body p a {
+  text-decoration: none;
+  color: #333;
+}
+
+.body p a:hover {
+  color: black;
+  text-decoration: underline;
+}
