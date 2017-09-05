@@ -1,3 +1,10 @@
+@font-face {
+
+   font-family: 'Dudu Calligraphy' ;
+   src: url('/fonts/Dudu_Calligraphy.ttf') format('truetype');
+
+}
+
 html {
   position: relative;
   min-height: 100%;
@@ -16,7 +23,7 @@ body {
 header {
   text-align: center;
   color: grey;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Dudu Calligraphy', 'Indie Flower', cursive;
   padding-bottom: 10px;
 }
 
@@ -60,7 +67,7 @@ header a:hover {
 }
 
 .body {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Dudu Calligraphy', 'Indie Flower', cursive;
   padding: 50px 0px 100px 0px;
   text-align: center;
 }
@@ -74,7 +81,7 @@ p {
 }
 
 footer {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Dudu Calligraphy', 'Indie Flower', cursive;
   font-size: 18px;
   font-weight: 400;
   text-align: center;
