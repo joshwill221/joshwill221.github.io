@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<!-- define angular app -->
+<html ng-app="scotchApp">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
@@ -18,11 +19,18 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
+    
+    <!-- load angular and angular route via CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+
+    <script src="js/script.js"></script>
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <!-- define angular controller -->
+  <body ng-controller="mainController">
 
     <div class="wrapper">
       <header>
@@ -32,16 +40,26 @@
         </div>
         <nav>
           <ul>
-            <li><a class="current" href="/">Home</a></li>
-            <li><a href="projects">Projects</a></li>
-            <li><a href="resume">Resume</a></li>
-            <li><a href="contact">Contact</a></li>
+            <li><a class="#" href="/">Home</a></li>
+            <li><a href="#about">Projects</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </header>
     </div>
 
-    <div class="body">
+    <!-- index.html -->
+    <!-- MAIN CONTENT AND INJECTED VIEWS -->
+    <div id="main" class="body">
+
+        <!-- angular templating -->
+        <!-- this is where content will be injected -->
+        <div ng-view></div>
+
+    </div>
+
+
       <h1>Welcome to My Portfolio Website</h1>
       <br>
       <p>I am a Computer Science Graduate looking for full time employment.</p>
