@@ -16,12 +16,18 @@ scotchApp.config(function($routeProvider, $locationProvider) {
     
         // route for the about page
         .when('/projects', {
-            templateUrl : 'pages/about.html',
-            controller  : 'aboutController'
+            templateUrl : 'pages/projects.html',
+            controller  : 'projectController'
+        })
+
+        // route for the about page
+        .when('/resume', {
+            templateUrl : 'pages/resume.html',
+            controller  : 'resumeController'
         })
     
         // route for the contact page
-        .when('/resume', {
+        .when('/contact', {
             templateUrl : 'pages/contact.html',
             controller  : 'contactController'
         });
@@ -36,10 +42,14 @@ scotchApp.controller('mainController', function($scope) {
     $scope.message = 'Everyone come and see how good I look!';
 });
 
-scotchApp.controller('aboutController', function($scope) {
-    $scope.message = 'Look! I am an about page.';
+scotchApp.controller('projectController', function($scope) {
+    $scope.message = 'Look! I am an PROJECTS page.';
+});
+
+scotchApp.controller('resumeController', function($scope) {
+    $scope.message = 'Look! I am an RESUME page.';
 });
 
 scotchApp.controller('contactController', function($scope) {
-    $scope.message = 'Contact us! JK. This is just a demo.';
+    $scope.message = 'Contact us! ... This is just a demo.';
 });
