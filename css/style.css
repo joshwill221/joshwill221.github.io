@@ -40,7 +40,7 @@ header {
   margin-top: 0px;
 }
 
-header li {
+header li {;
   display: inline;
   list-style: none;
 }
@@ -60,13 +60,6 @@ header a:hover {
 }
 
 .current {
-  color: black;
-  border: 3px solid black;
-  /*border-radius: 8px;*/
-  border-radius: 15px 45px;
-}
-
-.active {
   color: black;
   border: 3px solid black;
   /*border-radius: 8px;*/
