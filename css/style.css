@@ -111,11 +111,12 @@ footer {
 }
 
 .body p a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #333;
 }
 
 .body p a:hover {
   color: black;
   text-decoration: underline;
+  font-weight: bold;
 }
