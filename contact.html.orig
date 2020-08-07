@@ -1,0 +1,113 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Joshua Williams' Portfolio">
+    <meta name="keywords" content="josh williams, joshua williams, joshwill221, joshwill221@gmail.com"
+    <meta name="author" content="Josh Williams">
+    <title>Josh's Portfolio | Contact</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/thumbnail-gallery.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower">
+    <script src="https://use.fontawesome.com/a4dc91b115.js"></script>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="container">
+            <h1>Josh Williams</h1>
+            <p>Developer</p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="/">Projects</a></li>
+            <li><a href="resume">Resume</a></li>
+            <li><a class="current" href="contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+      <div class="body">
+        <h1>Contact Me</h1>
+        <br>
+        <p><i class="fa fa-map-marker" aria-hidden="true"></i> Location: Hillarys, Perth, WA</p>
+        <p><i class="fa fa-mobile" aria-hidden="true"></i> Mobile: 0432563002</p>
+        <p><i class="fa fa-envelope" aria-hidden="true"></i> Email: joshwill221@gmail.com</p>
+        <!-- no need they are already here!
+          <p><i class="fa fa-globe" aria-hidden="true"></i> Website: <a href="https://joshwill221.github.io/">https://joshwill221.github.io/</a></p>
+        -->
+        <p><i class="fa fa-git" aria-hidden="true"></i> Github: <a href="https://github.com/joshwill221">https://github.com/joshwill221</a></p><br />
+      </div>
+
+      <footer>
+        <p>Josh Williams Copyright &copy; 2020</p>
+      </footer>
+    </div><!-- .container -->
+  </body>
+</html>
+=======
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Joshua Williams' Portfolio">
+    <meta name="keywords" content="josh williams, joshua williams, joshwill221, joshwill221@gmail.com"
+    <meta name="author" content="Josh Williams">
+    <title>Josh's Portfolio | Contact</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/thumbnail-gallery.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower">
+    <script src="https://use.fontawesome.com/a4dc91b115.js"></script>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="container">
+            <h1>Josh Williams</h1>
+            <p>Developer</p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="/">Projects</a></li>
+            <li><a href="resume">Resume</a></li>
+            <li><a class="current" href="contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+      <div class="body">
+        <h1>Contact Me</h1>
+        <br>
+        <p><i class="fa fa-map-marker" aria-hidden="true"></i> Location: Hillarys, Perth, WA</p>
+        <p><i class="fa fa-mobile" aria-hidden="true"></i> Mobile: 0432563002</p>
+        <p><i class="fa fa-envelope" aria-hidden="true"></i> Email: joshwill221@gmail.com</p>
+        <!-- no need they are already here!
+          <p><i class="fa fa-globe" aria-hidden="true"></i> Website: <a href="https://joshwill221.github.io/">https://joshwill221.github.io/</a></p>
+        -->
+        <p><i class="fa fa-git" aria-hidden="true"></i> Github: <a href="https://github.com/joshwill221">https://github.com/joshwill221</a></p><br />
+      </div>
+
+      <footer>
+        <p>Josh Williams Copyright &copy; 2020</p>
+      </footer>
+    </div><!-- .container -->
+  </body>
+</html>
+>>>>>>> e7f8c2e898f11e2161bbfdb1e272d5e8ae1c48d5
